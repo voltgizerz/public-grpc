@@ -1,0 +1,17 @@
+syntax = "proto3";
+
+package user;
+option go_package = "/user";
+
+import "protos/user.proto";
+
+// The request message containing the User.
+message GetUserRequest {
+  int64 user_id = 1;
+}
+
+// The response message containing the User .
+message GetUserResponse {
+  User user = 1;
+}
+

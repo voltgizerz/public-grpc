@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package order;
+option go_package = "/order";
+
+import "protos/get_order.proto";
+
+// The order service definition.
+service OrderService {
+  // GetOrder
+  rpc GetOrder (GetOrderRequest) returns (GetOrderResponse) {}
+}

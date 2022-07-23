@@ -1,7 +1,7 @@
 syntax = "proto3";
 
-package pb;
-option go_package = "/pb";
+package auth;
+option go_package = "/auth";
 
 import "protos/login.proto";
 import "protos/register.proto";

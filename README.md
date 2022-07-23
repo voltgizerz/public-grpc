@@ -1,1 +1,2 @@
-# public-protos
+# public-grpc
+Repo gRPC proto for public
