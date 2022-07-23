@@ -4,7 +4,7 @@
 // - protoc             v3.20.0
 // source: protos/order_service.proto
 
-package order
+package __
 
 import (
 	context "context"
