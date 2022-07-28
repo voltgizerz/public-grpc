@@ -6,4 +6,4 @@ Repo gRPC proto for public consume
 - Protoc-gen-go-grpc version : **protoc-gen-go-grpc 1.2.0**
 
 # Example Implementation
-- [Click Here](https://github.com/voltgizerz/public-protos)
+- [Click Here](https://github.com/voltgizerz/go-microservices)
